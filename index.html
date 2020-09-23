@@ -3,46 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="grid-container">
-      <div class="video">
-        <div class="video-container">
+    <div class="container">
+      <div class="video-title">
+        <div class="video">
           <iframe
             width="1280"
             height="720"
             src="https://www.youtube.com/embed/7yLxxyzGiko"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            requestFullscreen
-          ></iframe>
+            allowfullscreen
+          >
+          </iframe>
         </div>
-        <div class="title-comment">
-          <h1>Sweet citty</h1>
+        <div class="title">
+          <h1 id="mainTitle">Kittens walk with a tiny chicken</h1>
         </div>
-      </div>
-      <div class="img">
-        <div class="img-1"></div>
-        <div class="img-2"></div>
-        <div class="img-3"></div>
-        <div class="img-4"></div>
-        <div class="img-5"></div>
-        <div class="img-6"></div>
-        <div class="img-7"></div>
-        <div class="img-8"></div>
-      </div>
-      <div class="title">
-        <div class="title-1"></div>
-        <div class="title-2"></div>
-        <div class="title-3"></div>
-        <div class="title-4"></div>
-        <div class="title-5"></div>
-        <div class="title-6"></div>
-        <div class="title-7"></div>
-        <div class="title-8"></div>
       </div>
     </div>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
